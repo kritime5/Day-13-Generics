@@ -30,6 +30,24 @@ public class TestMaximum{
 
     private static void printMax(Float a, Float b, Float c, Float max) {
     }
+//uc3- find maximum among 3 string
+    public  static String testMax2(String R, String S, String T){
+        String max=R;
+        if(S.compareTo(max)>0){
+            max=S;
+        }
+        if(T.compareTo(max)>0){
+            max=T;
+        }
+        printMax2(R,S,T, max );
+        return max;
+
+    }
+
+    private static void printMax2(String r, String s, String t, String max) {
+    }
+
+
 
 
     private static void printMax(Integer x, Integer y, Integer z, Integer max) {
@@ -41,6 +59,7 @@ public class TestMaximum{
         System.out.println("ENTER THE VALE OF X,Y,Z");
         System.out.println(testMax(2,9,6));
         System.out.println(testMax1(5F, 8F, 10F));
+        System.out.println(testMax2("Rama","Tina","Bharat"));
 
     }
 
