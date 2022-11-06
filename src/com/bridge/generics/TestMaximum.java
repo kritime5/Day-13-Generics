@@ -1,5 +1,6 @@
 package com.bridge.generics;
 
+import java.awt.*;
 import java.util.Scanner;
 
 public class TestMaximum{
@@ -17,6 +18,14 @@ public class TestMaximum{
 
     }
 
+
     private static void printMax(Integer x, Integer y, Integer z, Integer max) {
     }
+
+    public static void main(String[] args) {
+        System.out.println("ENTER THE VALE OF X,Y,Z");
+        System.out.println(testMax(2,9,6));
+    }
+
+
 }
